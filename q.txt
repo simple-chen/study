@@ -1,0 +1,7 @@
+run-as com.example.databasetest1
+cd databases
+cat BookStore.db>/sdcard/BookStore.db
+cat BookStore.db>/sdcard/BookStore.db
+exit
+exit
+adb pull /sdcard/BookStore.db
